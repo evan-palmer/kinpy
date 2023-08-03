@@ -5,7 +5,6 @@ from .mjcf import *
 from .sdf import *
 from .transform import *
 from .urdf import *
-from .visualizer import *
 
 
 def build_chain_from_file(filename: str) -> Chain:
